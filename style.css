@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #090909;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 35px 20px;
+  text-align: center;
+  background: #111;
+  border-bottom: 1px solid #292929;
+}
+header h1 { letter-spacing: 5px; }
+header p { color: #888; font-size: 12px; }
+main {
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 0 18px;
+}
+section {
+  background: #141414;
+  border: 1px solid #292929;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+.welcome { text-align: center; }
+p { color: #bbb; line-height: 1.7; }
+.post {
+  padding: 15px 0;
+  border-bottom: 1px solid #333;
+}
+video {
+  width: 100%;
+  border-radius: 9px;
+  margin-top: 12px;
+}
+footer {
+  text-align: center;
+  color: #777;
+  padding: 30px;
+}
+a { color: #65d995; }
